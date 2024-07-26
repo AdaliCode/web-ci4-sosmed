@@ -22,8 +22,7 @@
                         <?= $post['post_accountName'] ?><span class="text-secondary"><i class="bi bi-award-fill"> </i><small><?= $post['post_accountUserName']; ?></small></span>
                         <!-- if ada description post -->
                         <?php if ($post['description']) : ?>
-                            <br>
-                            Capek nulisnya
+                            <br><?= $post['description']; ?>
                         <?php endif; ?>
                         <br>
                         <img src="img/post.png" alt="" width="100%">

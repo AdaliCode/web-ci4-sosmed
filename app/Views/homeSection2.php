@@ -19,8 +19,13 @@
                     <?php for ($i = 0; $i < 10; $i++) : ?>
                         <li class="list-group-item border-bottom border-dark">
                             <small>Hanya di X . Populer</small><br>
-                            #viralvideos<br>
-                            16,4rb posts
+                            <?php if ($i == 0) : ?>
+                                qqq<br>
+                                16,4rb posts
+                            <?php else : ?>
+                                #viralvideos<br>
+                                16,4rb posts
+                            <?php endif; ?>
                         </li>
                     <?php endfor; ?>
                 </ul>
